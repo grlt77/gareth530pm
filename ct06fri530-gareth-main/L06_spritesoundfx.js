@@ -1,9 +1,9 @@
 let picoimg,bgmu,soundpop;
-let y=300;
-let x=300;
+let y=200;
+let x=200;
 function preload(){
     picoimg = loadImage('assets/pico-a.png');
-    bgmu= loadSound('assets/.mp3');
+    bgmu= loadSound('assets/star_wars_theme_8_bit.mp3');
     soundpop=loadSound('assets/pop.mp3');
 
 
@@ -31,22 +31,22 @@ background('lightblue');
      }
     x = constrain(x,0,width - 110);
     y = constrain(y,0,height - 133);
-    if (x = 0){
-        background ('red')
-        soundpop.play();
-    }
-    if (x = width-110){
-        background ('red')
-        soundpop.play();
-    }
-    if (y = 0){
-        background ('red')
-        soundpop.play();
-    }
-    if (y = height-133){
-        background ('red')
-        soundpop.play();
-    }
+    //  if (x = 0){
+    //     //background ('red')
+    //     soundpop.play();
+    // }
+    // else if (x = width-110){
+    //     //background ('red')
+    //     soundpop.play();
+    // }
+    // else if (y = 0){
+    //    // background ('red')
+    //     soundpop.play();
+    // }
+    // else if (y = height-133){
+    //    // background ('red')
+    //     soundpop.play();
+    // }
 }
 
 function keyPressed(){
