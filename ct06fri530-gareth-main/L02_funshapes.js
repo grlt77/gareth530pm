@@ -1,11 +1,11 @@
 
-function setup(){
-  createCanvas(1500, 950)
-  background('skyblue')
-}
+// function setup(){
+//   createCanvas(1500, 950)
+//   background('skyblue')
+// }
 
 
-function draw() {
+// function draw() {
   // Challenge 1: An eye using ellipse() function
   // fill('black');
   // ellipse(400,300,600,300);
@@ -43,8 +43,8 @@ function draw() {
   // fill('red');
   // triangle(80,200,720,200,400,10);
   //quad(123,456,789,234,567,890,345,678)
-  fill('green')
-  quad(1000,800,500,800,300,950,1300,950)
+  // fill('green')
+  // quad(1000,800,500,800,300,950,1300,950)
 
   // Challenge 4: A rocketship using triangle() function
 
@@ -53,4 +53,4 @@ function draw() {
   // Challenge 6: Add some colours to the drawings in the above challenges
 
   // Challenge 7: Create a funny Pokemon
-}
+//}

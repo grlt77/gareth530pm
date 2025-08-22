@@ -1,15 +1,15 @@
-let g = 1029;
-let b = 2039;
-let c =g+b+3049;
-console.log(c+" hi bee u");
+// let g = 1029;
+// let b = 2039;
+// let c =g+b+3049;
+// console.log(c+" hi bee u");
 
-function setup() {
-    createCanvas(700, 700);
-    background(220);
-    noLoop(); // Stops continuous drawing
-  }
+// function setup() {
+//     createCanvas(700, 700);
+//     background(220);
+//     noLoop(); // Stops continuous drawing
+//   }
 
-function draw() {
+// function draw() {
   // Recap 1: Repeating Circles
 // for (let rep = 100; rep < 500; rep){
 //   if (rep % 2 ===0){
@@ -47,29 +47,29 @@ function draw() {
 //   }
 //   ellipse (100,rep,100,100)
 // }
-for (let g=0;g<10;g++){
-let bw = width/100;
-let count = 0;
+// for (let g=0;g<10;g++){
+// let bw = width/100;
+// let count = 0;
 
-for (let i=0; i<9;i++){
-  for (let j=0; j<9;j++){
-    if (count % 2 ===0){
-      fill(0)
-   }
-    else{
-      fill(255)
-  }
-  count += 1
+// for (let i=0; i<9;i++){
+//   for (let j=0; j<9;j++){
+//     if (count % 2 ===0){
+//       fill(0)
+//    }
+//     else{
+//       fill(255)
+//   }
+//   count += 1
 
-  rect(i*bw,j*bw,bw,bw)
-}
-}
-}
-  // Task 1: Colour Gradient
+//   rect(i*bw,j*bw,bw,bw)
+// }
+// }
+// }
+//   // Task 1: Colour Gradient
 
-  // Task 2: Colour Loop
+//   // Task 2: Colour Loop
 
-  // Task 3: Row of Circles
+//   // Task 3: Row of Circles
 
-  // Task 4: Grid of Circles
-}
+//   // Task 4: Grid of Circles
+// }
